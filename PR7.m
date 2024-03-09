@@ -6,8 +6,8 @@ function dy = PR7(t,y)
 R1 = 5e6;
 R2 = 5e6;
 R3 = 5e6;
-C1 = 1e-6;
-C2 = 1e-6;
+C1 = 1e-7;
+C2 = 1e-7;
 V = 5;
 %Vector de los estados
 dy = zeros(2,1);
